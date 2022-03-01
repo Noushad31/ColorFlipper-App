@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #ccc;
+}
+nav .nav-bar {
+  height: 90px;
+  background: rgb(0, 0, 0);
+  /* margin-top: -22px; */
+  border-bottom-left-radius: 43px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-bar ul {
+  /* background: rgb(37, 34, 34); */
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+nav .nav-bar ul li {
+  /* color: blue; */
+  list-style-type: none;
+}
+nav .nav-bar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+nav .nav-bar ul li a:hover {
+  color: rgb(13, 223, 212);
+  font-weight: 300;
+}
+
+/* Hero section style  */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 54px;
+}
+
+.hero-section {
+  height: 400px;
+  width: 600px;
+  background-color: rgba(15, 15, 13, 0.623);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+}
+
+.hero-section #btn {
+  padding: 10px 64px;
+  border-radius: 1px;
+  border: 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out;
+}
+
+.hero-section #btn:hover {
+  background: #000;
+  color: aliceblue;
+}
